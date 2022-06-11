@@ -128,7 +128,7 @@ a {
   background: rgba(151, 201, 185, 0.42);
 }
 
-.btn1 a:hover {
+.btn1 a:active{
   -webkit-animation: btn1__anim 0.5s linear 1;
           animation: btn1__anim 0.5s linear 1;
 }
