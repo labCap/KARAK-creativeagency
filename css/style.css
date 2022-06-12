@@ -1514,6 +1514,11 @@ a {
 .footer .footer__form input {
   padding: 12px 18px;
   border-radius: 7px 0 0 7px;
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  color: #4b4b4b;
 }
 
 .footer .footer__form input::-webkit-input-placeholder {
