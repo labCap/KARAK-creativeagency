@@ -990,7 +990,7 @@ a {
   }
 }
 
-.course-slider .slick-dots {
+.course-slider .slick-dots {transition: all 0.3s;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1045,7 +1045,7 @@ a {
   padding: 46px 0 54px 0;
 }
 
-.mentors__slider .slick-dots {
+.mentors__slider .slick-dots {transition: all 0.3s;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
