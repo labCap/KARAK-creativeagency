@@ -1,10 +1,7 @@
 @import'rem';
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Roboto:wght@400;500;700&display=swap');
 
-* {
-    transition: all 0.25s;
-
-}
+* {}
 
 a {
     color: #322F5C;
@@ -37,6 +34,7 @@ a {
         font-size: 15px;
         line-height: 18px;
         position: relative;
+        transition: all 0.3s;
 
         @media (max-width:767px) {
             font-size: 25px;
@@ -171,6 +169,7 @@ a {
             line-height: 18px;
             padding: 0 0 0 25px;
             position: relative;
+            transition: all 0.2s linear;
 
             &:hover {
                 color: #a8e2cf;
@@ -208,6 +207,7 @@ a {
                 font-size: 13px;
                 line-height: 15px;
                 position: relative;
+                transition: all 0.2s linear;
 
                 &:hover {
                     color: #97C9B9;
@@ -441,6 +441,7 @@ a {
     }
 
     &__item {
+        transition: all 0.2s linear;
 
         background: rgba(237, 250, 246, 0.51);
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
@@ -624,6 +625,7 @@ a {
         padding: 9px 17px;
         border: 1px solid #CEE7DF;
         border-radius: 10px;
+        transition: all 0.3s;
 
         height: 40px;
 
@@ -713,10 +715,6 @@ a {
         }
     }
 
-    .active {
-        background: #000;
-        transition: all 5s linear;
-    }
 
 
 
@@ -814,6 +812,7 @@ a {
         margin: 13.5px;
         // flex: 0 0 24.6%;
         max-width: 276px;
+        transition: all 0.2s linear;
 
         &:hover {
             background: rgba(237, 250, 246, 0.705);
@@ -1081,6 +1080,7 @@ a {
 
     &__item {
         flex: 0 1 24.8%;
+        transition: all 0.2s linear;
 
 
         text-align: center;
@@ -1232,6 +1232,7 @@ a {
             margin: 10px 0;
             background: #2F2D52;
             border-radius: 9px;
+            transition: all 0.2s linear;
 
             &:hover {
                 box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25);
@@ -1339,6 +1340,7 @@ a {
             }
 
             &:hover {
+                transition: all 0.2s linear;
                 border-radius: 50%;
                 background: #F8FFFD;
                 border: 1px solid #ACDACB;
@@ -1361,6 +1363,7 @@ a {
 
     &__box-list {
         a {
+            transition: all 0.2s linear;
             display: inline-block;
             font-size: 15px;
             line-height: 20px;
@@ -1413,6 +1416,7 @@ a {
             border-radius: 0px 7px 7px 0px;
             padding: 12px 14px;
             color: #fff;
+            transition: all 0.2s linear;
 
             &:hover {
                 background: #433f7b;
@@ -1451,6 +1455,7 @@ a {
         }
 
         a {
+            transition: all 0.2s linear;
             font-size: 15px;
             line-height: 20px;
 
@@ -1531,6 +1536,8 @@ a {
         border-radius: 10px;
 
         li {
+            transition: all 0.2s linear;
+
             position: relative;
             display: flex;
             justify-content: center;
