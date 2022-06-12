@@ -634,8 +634,8 @@ a {
 
     &__item-title {
         font-family: 'Josefin Sans';
-        animation: spoiler_anim 800ms linear 1;
-
+        // animation: spoiler_anim 800ms linear 1;
+        transition: all 1s linear;
         font-weight: 600;
         font-size: 12px;
         line-height: 22px;
@@ -644,6 +644,7 @@ a {
         padding: 0 23px 0 0;
         cursor: pointer;
         position: relative;
+
 
         @media (max-width:767px) {
             font-size: 20px;
@@ -717,13 +718,16 @@ a {
         transition: all 5s linear;
     }
 
+
+
+
     &__item-list {
         display: none;
 
         position: relative;
         z-index: 100;
         top: 0;
-        margin: 10px 0 0 0;
+        // margin: 10px 0 0 0;
         padding: 9px 17px;
         border: 1px solid #CEE7DF;
         background: #CEE7DF;

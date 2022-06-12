@@ -777,8 +777,8 @@ a {
 
 .spoiler__item-title {
   font-family: 'Josefin Sans';
-  -webkit-animation: spoiler_anim 800ms linear 1;
-          animation: spoiler_anim 800ms linear 1;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
   font-weight: 600;
   font-size: 12px;
   line-height: 22px;
@@ -881,7 +881,6 @@ a {
   position: relative;
   z-index: 100;
   top: 0;
-  margin: 10px 0 0 0;
   padding: 9px 17px;
   border: 1px solid #CEE7DF;
   background: #CEE7DF;
