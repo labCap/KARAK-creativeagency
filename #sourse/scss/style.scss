@@ -804,6 +804,7 @@ a {
     .slick-dots {
         list-style: none;
         display: flex;
+        flex-wrap: wrap;
         // justify-content: center;
         margin: 42px auto 0 auto;
 
