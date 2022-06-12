@@ -1136,7 +1136,7 @@ a {
 }
 
 .mentor__title {
-  padding: 0 0 15px 0;
+  padding: 0 0 20px 0;
   font-family: 'Josefin Sans';
   font-weight: 600;
   font-size: 20px;
@@ -1151,7 +1151,7 @@ a {
 
 .mentor__subtitle {
   padding: 0 0 15px 0;
-  font-size: 10px;
+  font-size: 15px;
   line-height: 25px;
   letter-spacing: 0.03em;
 }
@@ -1164,8 +1164,8 @@ a {
 
 .mentor__descr {
   padding: 0 0 15px 0;
-  font-size: 10px;
-  line-height: 20px;
+  font-size: 15px;
+  line-height: 25px;
   letter-spacing: 0.03em;
   color: #6D6D6D;
 }
