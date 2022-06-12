@@ -246,14 +246,17 @@ a {
         text-align: center;
         z-index: 5;
 
-        a {
-            display: block;
-            padding: 10px 0;
-            background: #fff;
-        }
 
         li {
             margin-left: 0;
+
+            a {
+                font-size: 20px;
+                line-height: 20px;
+                display: block;
+                padding: 10px 0;
+                background: #fff;
+            }
         }
     }
 
@@ -330,10 +333,14 @@ a {
     }
 
     &__descr {
-        padding: 0 0 22px 0;
+        padding: 22px 0;
 
         letter-spacing: 0.03em;
         color: #929292;
+    }
+
+    &__btn {
+        padding: 20px 0 40px 0;
     }
 
     &__img {
