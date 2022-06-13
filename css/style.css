@@ -1084,6 +1084,8 @@ a {
 
 .mentor__item {
   max-width: 400px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .mentor__item .item__inner {
