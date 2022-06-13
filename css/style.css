@@ -1012,6 +1012,8 @@ a {
 }
 
 .course-slider .slick-dots button {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
   font-size: 0;
   width: 13px;
   height: 13px;
@@ -1068,6 +1070,8 @@ a {
 }
 
 .mentors__slider .slick-dots button {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
   font-size: 0;
   width: 13px;
   height: 13px;

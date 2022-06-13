@@ -1,7 +1,6 @@
 @import'rem';
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Roboto:wght@400;500;700&display=swap');
 
-* {}
 
 a {
     color: #322F5C;
@@ -843,6 +842,7 @@ a {
 
         li.slick-active {
             button {
+
                 background: #322F5C;
                 border-radius: 93px;
                 width: 24px;
@@ -851,6 +851,7 @@ a {
         }
 
         button {
+            transition: all 0.3s linear;
             font-size: 0;
             width: 13px;
             height: 13px;
@@ -913,6 +914,7 @@ a {
 
 
             button {
+                transition: all 0.3s linear;
                 font-size: 0;
                 width: 13px;
                 height: 13px;
